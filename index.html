@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  
+  <title>Индекс Массы Тела</title>
+</head>
+<body>
+    <h1 class="first_bmi">ИНДЕКС МАССЫ ТЕЛА</h1>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="bmi-calculator">
+                <div class="result">
+                    <div class="result-text">
+                        <h1><span id="bmiValue">24.8</span>кг/м2</h1><small id="bmid">Нормальный вес</small>
+                    </div>
+                </div>
+                <div class="calculator">
+                    <h2 class="text-center calculator-title"><a href="index2.html">РЕКОМЕНДАЦИИ</a></h2>
+                    <hr class="calculator-hr" />
+                    <div class="height">
+                        <input class="value_range" id="height" type="range" value="182" min="100" max="250" step="1" />
+                        <div class="label-height field-text">0</div>
+                    </div>
+                    <div class="weight">
+                        <input class="value_range" id="weight" type="range" value="82" min="0" max="250" step="1" />
+                        <div class="label-weight field-text">0</div>
+                    </div>
+                    <div class="submit">
+                        <input class="submit" id="submit" type="submit" value="Посчитать" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="jQuery.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>

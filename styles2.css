@@ -1,0 +1,135 @@
+body {
+    background-color: #FC3962;
+}
+.punkt1 {
+    margin-top: 10px;
+}
+
+.parent-zag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.bg-blue {
+    background: #106c94;
+    /* Цвет фона */
+}
+
+.bg-red {
+    background: #f73946
+        /* Цвет фона */
+}
+
+
+.bg-green {
+    background: #50c454;
+    /* Цвет фона */
+}
+
+.bg-orange {
+    background: #e44c30;
+    /* Цвет фона */
+}
+
+.mr-top-20 {
+    margin-top: 20px;
+}
+
+.zag {
+    color: #fff;
+    /* Цвет текста */
+    padding: 10px;
+    /* Поля вокруг текста */
+    border-radius: 10px;
+    /* Уголки */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 5px 18px 1px #000000;
+}
+
+.text1 {
+    background: #302C44;
+    /* Цвет фона */
+    margin-top: 20px;
+    color: #fff;
+    /* Цвет текста */
+    padding: 35px;
+    /* Поля вокруг текста */
+    border-radius: 10px;
+    /* Уголки */
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.text2 {
+    background: #302C44;
+    /* Цвет фона */
+    margin-top: 20px;
+    color: #fff;
+    /* Цвет текста */
+    padding: 35px;
+    /* Поля вокруг текста */
+    border-radius: 10px;
+    /* Уголки */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.text3 {
+    background: #302C44;
+    /* Цвет фона */
+    margin-top: 20px;
+    color: #fff;
+    /* Цвет текста */
+    padding: 35px;
+    /* Поля вокруг текста */
+    border-radius: 10px;
+    /* Уголки */
+    text-align: center;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.text4 {
+    background: #302C44;
+    /* Цвет фона */
+    margin-top: 20px;
+    color: #fff;
+    /* Цвет текста */
+    padding: 35px;
+    /* Поля вокруг текста */
+    border-radius: 10px;
+    /* Уголки */
+    text-align: center;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.punkt1 {
+    text-align: left;
+}
+
+.zagolovki {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.zagolovki2 {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.zagolovki3 {
+    text-align: center;
+    margin-top: 50px;
+}
